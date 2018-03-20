@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MonthYearPicker</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>
