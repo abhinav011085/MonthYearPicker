@@ -6,11 +6,11 @@ just copy paste MonthYearPickerDialog.java to your project along with month_year
 
 To use it, just copy below lines
 
-MonthYearPickerDialog pickerDialog = new MonthYearPickerDialog();
-pickerDialog.setListener(new DatePickerDialog.OnDateSetListener() {
-    @Override
-    public void onDateSet(DatePicker datePicker, int year, int month, int i2) {
-        Toast.makeText(MainActivity.this, year + "-" + month, Toast.LENGTH_SHORT).show();
-    }
-});
-pickerDialog.show(getSupportFragmentManager(), "MonthYearPickerDialog");
+    MonthYearPickerDialog pickerDialog = new MonthYearPickerDialog();
+    pickerDialog.setListener(new DatePickerDialog.OnDateSetListener() {
+        @Override
+        public void onDateSet(DatePicker datePicker, int year, int month, int i2) {
+            Toast.makeText(MainActivity.this, year + "-" + month, Toast.LENGTH_SHORT).show();
+        }
+    });
+    pickerDialog.show(getSupportFragmentManager(), "MonthYearPickerDialog");
